@@ -3,6 +3,11 @@ body{
     padding: 0px;
     font-family: "Inter", sans-serif;
 }
+img{
+    height: 100px;
+    width: 100px;
+    color: green;
+}
 .navbar{
     height: 100px;
     background-color:#F55A5A ;
