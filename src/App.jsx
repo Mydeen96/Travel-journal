@@ -6,9 +6,9 @@ export default function App() {
 
   const cards = data.map((item) => {
     return (
-       <Content 
-            key = {item.id}
-            {...item}
+      <Content 
+          key = {item.id}
+          {...item}
        />
     )
 }) 
@@ -16,7 +16,9 @@ export default function App() {
   return (
     <div className="container">
       <Navbar />
+      <div className="content">
       {cards}
+      </div>
     </div>
    )
 }
