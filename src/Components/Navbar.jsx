@@ -1,9 +1,8 @@
-import React from "react";
 
 export default function Header(){
     return(
         <nav className="navbar">
-            <img src="./lobe-icon.png" alt="Hello" />
+            <img className="globe-img" src="./images/globe-icon.svg" alt="Hello" />
             <span className="heading">my travel journal.</span>
         </nav>
     )

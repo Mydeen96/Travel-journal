@@ -1,7 +1,7 @@
 export default [
     {
         id : 1 ,
-        image : "./images/mout-fuji.jpg",
+        image : "./images/mount-fuji.jpg",
         country : "JAPAN",
         gmap :"https://maps.app.goo.gl/jPtvy22ffXv6EpFVA" ,
         spotName : "Mount Fuji",
