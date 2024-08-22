@@ -8,7 +8,7 @@ export default function Conttent(item) {
                 <span className="country">
                     {item.country}
                 </span>
-                <a className = " google-link"href={item.gmap}>View on Google Maps</a>
+                <a className = " google-link" target="_blank" href={item.gmap}>View on Google Maps</a>
                 <h1 className="place-name">{item.spotName}</h1>
                 <p className="date-range" >{item.date}</p>
                 <p className="description">{item.description}</p>
